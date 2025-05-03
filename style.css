@@ -124,7 +124,6 @@ html {
   z-index: 10;
 }
 
-
 .team-member-name {
   transform: translateY(-150%);
   font-size: 3.6rem;
@@ -143,6 +142,14 @@ html {
 
 .team-member-info ion-icon {
   font-size: 3rem;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.team-member-info ion-icon:hover {
+  color: pointer;
+  scale: 1.2;
+  color: #666;
 }
 
 .team-member:hover .team-member-info {
